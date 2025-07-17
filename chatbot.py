@@ -4,7 +4,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
-
+#python -m spacy download en_core_web_sm
 # Load API key from .env file
 load_dotenv()
 # Configure the Google Generative AI client with your API key
