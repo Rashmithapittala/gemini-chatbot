@@ -1,0 +1,2 @@
+https://handbook.gitlab.com/
+https://about.gitlab.com/direction/

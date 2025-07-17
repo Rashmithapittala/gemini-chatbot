@@ -1,0 +1,11 @@
+google-generativeai 
+python-dotenv
+langchain
+langchain-community
+unstructured
+spacy
+//python -m spacy download en_core_web_sm
+sentence-transformers 
+faiss-cpu
+streamlit
+beautifulsoup4
