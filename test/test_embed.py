@@ -1,7 +1,6 @@
 import sys
 import os
 
-# Make sure the parent dir (Gemini-Chatbot/) is in the path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from loader.url_loader import load_documents_from_urls

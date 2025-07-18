@@ -1,4 +1,3 @@
-
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 import os
@@ -16,4 +15,4 @@ def embed_and_save(chunks, faiss_path="vectorstore/index"):
         os.makedirs("vectorstore")
     db.save_local(faiss_path)
 
-    print(f"✅ FAISS vector store saved to: {faiss_path}")
+    print(f"FAISS vector store saved to: {faiss_path}")

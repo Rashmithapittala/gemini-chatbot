@@ -15,5 +15,5 @@ docs = load_documents_from_urls(urls)
 
 # Preview the first document's content
 print(f"Loaded {len(docs)} documents.")
-print(docs[0].page_content[:500])  # Print first 500 chars
+print(docs[0].page_content[:500])  
 print(docs[1].page_content[:500]) 

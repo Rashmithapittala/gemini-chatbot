@@ -1,4 +1,3 @@
-# loader.py
 from langchain_community.document_loaders import UnstructuredURLLoader
 from bs4 import BeautifulSoup
 import requests
@@ -21,7 +20,7 @@ def extract_links_recursive(root_url, max_depth=2, visited=None):
             all_links.extend(extract_links_recursive(link, max_depth - 1, visited))
         return list(set(all_links))
     except Exception as e:
-        print(f"❌ Failed to fetch {root_url}: {e}")
+        print(f"Failed to fetch {root_url}: {e}")
         return []
 
 def load_documents_from_urls(urls):
